@@ -23,7 +23,7 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 
 dagshub_url = "https://dagshub.com"
 repo_owner = "arshpreetsingh-01"  # Updated to your repository owner
-repo_name = "mlops-mini-project"
+repo_name = "mlops_mini_project_2"
 
 # Initialize DagsHub tracking
 dagshub.init(repo_owner=repo_owner, repo_name=repo_name, mlflow=True)
